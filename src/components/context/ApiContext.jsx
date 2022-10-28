@@ -11,9 +11,6 @@ export const ApiProvider = ({children}) => {
         const response = await fetch('https://randomuser.me/api?results=500');
         const { results } = await response.json()
         console.log(results)
-        // if (!results) {
-        //     throw new error('hello! something went wrong')
-        // } else {
          setUser(results)
          setLoading(false);
         // }

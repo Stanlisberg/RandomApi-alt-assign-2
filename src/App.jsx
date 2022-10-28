@@ -23,7 +23,7 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/*' element={<Error />} />
             <Route path='/profile' element={<Profile />} >
-             <Route path='/profile' element={<SignIn />} />
+              <Route path='/profile' element={<SignIn />} />
             </Route>
             <Route path='/users' element={<Users />} />
             <Route path='/nested' element={<NestedRoute />} />
