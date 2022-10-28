@@ -16,6 +16,7 @@ function Users() {
         fetchApiData()
     }, [])
     
+    // Pagination 
     useEffect(() => {
         const endOffset = itemOffset + itemsPerPage;
         setCurrentItems(user?.slice(itemOffset, endOffset));
