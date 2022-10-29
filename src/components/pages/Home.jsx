@@ -5,7 +5,7 @@ function Home() {
     <div className="home-container">
       <div className="home-wrapper">
         <div className="home-header">
-          <div className="overview">Overview:</div>
+          <div className="overview">Hello! &#x1F64B;</div>
         </div>
         <div className="home-content-div">
           <p className="home-content">
