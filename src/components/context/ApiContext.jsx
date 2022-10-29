@@ -8,7 +8,7 @@ export const ApiProvider = ({children}) => {
     const [user, setUser] = useState([])
  
     const fetchApiData = async () => {
-        const response = await fetch('https://randomuser.me/api?results=500');
+        const response = await fetch('https://randomuser.me/api?results=100');
         const { results } = await response.json()
         console.log(results)
          setUser(results)
