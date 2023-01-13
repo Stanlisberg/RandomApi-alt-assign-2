@@ -18,7 +18,7 @@ function App() {
     <ApiProvider>
       <Router>
        <div className="app">
-          <Navbar />
+        <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/*' element={<Error />} />
@@ -29,7 +29,7 @@ function App() {
             <Route path='/nested' element={<NestedRoute />} />
           </Routes>
           <ErrorTesting testing='blue' />
-       <Footer />
+        <Footer />
      </div>
      </Router>
     </ApiProvider>
